@@ -1,0 +1,28 @@
+:root {
+  --background-color: red;
+}
+
+
+
+body {
+color: rgb(102, 80, 39);
+font-family: 'Open Sans', sans-serif;
+/* font-family: 'Poiret One', cursive; */
+/* font-family: 'Poller One', cursive; */
+/* font-family: 'Unbounded', cursive; */
+background-color: #a8a7a7;
+}
+
+.container-fluid-custom {
+    max-width: 80%;
+}
+
+/* Button */
+
+.btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    color: rgb(255, 251, 0);
+    background-color: rgb(33, 85, 96);
+}
