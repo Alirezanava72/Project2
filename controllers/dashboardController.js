@@ -1,3 +1,10 @@
+// CRUD notes
+
+const Note = require('../models/notes');
+const mongoose = require('mongoose');
+
+
+
 exports.dashboard = async (req, res) => {
     const locals = {
         title: 'Dashboard', 
