@@ -51,7 +51,8 @@ app.get('*', function(req,res) {
     res.status(404).render('error404');
 });
 
-app.listen(port, () => {
-    console.log(`App listening on port ${port}`);
-});
+// app.listen(port, () => {
+//     console.log(`App listening on port ${port}`);
+// });
 
+module.exports = app;
