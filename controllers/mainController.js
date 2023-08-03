@@ -1,6 +1,5 @@
 /**
- * GET /
- * Homepage
+ * GET / Homepage
  */
 
 exports.homepage = async (req, res) => {
