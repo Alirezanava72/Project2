@@ -5,7 +5,7 @@
 
 exports.homepage = async (req, res) => {
     const locals = {
-        title: 'Notes Taking', 
+        title: 'NoteHarbor', 
         description: 'Free NodeJs Notes App.',
     }
 
